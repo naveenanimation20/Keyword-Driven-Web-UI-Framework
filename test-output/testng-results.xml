@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21715" started-at="2019-02-24T05:18:40Z" finished-at="2019-02-24T05:19:02Z">
+  <suite name="Default suite" duration-ms="22363" started-at="2019-02-25T17:21:47Z" finished-at="2019-02-25T17:22:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21715" started-at="2019-02-24T05:18:40Z" finished-at="2019-02-24T05:19:02Z">
+    <test name="Default test" duration-ms="22363" started-at="2019-02-25T17:21:47Z" finished-at="2019-02-25T17:22:10Z">
       <class name="com.qa.hs.tests.LoginTest">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.hs.tests.LoginTest@3532ec19]" name="loginTest" duration-ms="21686" started-at="2019-02-24T05:18:40Z" finished-at="2019-02-24T05:19:02Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.hs.tests.LoginTest@3532ec19]" name="loginTest" duration-ms="6546" started-at="2019-02-25T17:21:47Z" finished-at="2019-02-25T17:21:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="signUpTest()[pri:0, instance:com.qa.hs.tests.LoginTest@3532ec19]" name="signUpTest" duration-ms="15793" started-at="2019-02-25T17:21:54Z" finished-at="2019-02-25T17:22:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest -->
       </class> <!-- com.qa.hs.tests.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

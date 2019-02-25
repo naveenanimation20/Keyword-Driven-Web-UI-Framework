@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.hs.tests.LoginTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.hs.tests.LoginTest" hash-for-method="signUpTest">signUpTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -130,12 +135,19 @@
                   <span class="method-name">loginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTest">
+                  </a> <!-- signUpTest -->
+                  <span class="method-name">signUpTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/fd/lw5s91x96f947xsp40gd_2180000gp/T/testng-eclipse--1809962805/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/fd/lw5s91x96f947xsp40gd_2180000gp/T/testng-eclipse--1554494381/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
+data.setCell(0, 1, 'signUpTest')
 data.setCell(0, 2, 'com.qa.hs.tests.LoginTest')
-data.setCell(0, 3, 21686);
+data.setCell(0, 3, 15793);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'com.qa.hs.tests.LoginTest')
+data.setCell(1, 3, 6546);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -223,6 +239,10 @@ return data;
               <div class="test-method">
                 <span class="method-name">loginTest</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signUpTest</span>
+                <span class="method-start">6548 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
